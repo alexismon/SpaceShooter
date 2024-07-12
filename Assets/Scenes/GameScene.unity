@@ -11666,6 +11666,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1074516761}
     m_Modifications:
+    - target: {fileID: 9206598319420935158, guid: 6b83f8ad533df264f83fe7df5097c68a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3aab9f50c5ca41a41a8ff7e1f729436e, type: 3}
     - target: {fileID: 9206598319420935160, guid: 6b83f8ad533df264f83fe7df5097c68a,
         type: 3}
       propertyPath: m_Pivot.x
@@ -11818,7 +11823,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3308412897997081364, guid: fa6ac81df99174a25946df50fd09edcf,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 0b882341213338241b9d7f75c3d29c88, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b1c75a59af7e74e4dafdad376846f6c0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
