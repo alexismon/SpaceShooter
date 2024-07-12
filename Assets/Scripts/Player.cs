@@ -9,8 +9,8 @@ public class Player : MonoBehaviour
     public HealthBar healthBar;
     private Rigidbody2D rigid;
     public GameObject explosionPrefab;
-    public RandomAudioSource ammoBoxAudioSource;
-    public RandomAudioSource damageAudioSource;
+    public AkEvent ammoBoxAkEvent;
+    public AkEvent damageAkEvent;
 
     private int health = 0;
     private Vector3 minPosition = new Vector2(-5, -5);
@@ -45,8 +45,6 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.tag);
-
         if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("EnemyShip") || collision.gameObject.CompareTag("EnemyBullet"))
         {
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
@@ -54,7 +52,7 @@ public class Player : MonoBehaviour
 
             if (enemy != null || bullet != null)
             {
-                damageAudioSource.Play();
+                damageAkEvent.HandleEvent(gameObject);
 
                 if (enemy != null)
                 {
@@ -96,7 +94,7 @@ public class Player : MonoBehaviour
         {
             Destroy(collision.gameObject);
 
-            ammoBoxAudioSource.Play();
+            ammoBoxAkEvent.HandleEvent(gameObject);
 
             AmmoManager ammoManager = FindAnyObjectByType<AmmoManager>();
 

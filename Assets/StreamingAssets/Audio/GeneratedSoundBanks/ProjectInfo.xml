@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="SpaceShooter_WwiseProject" GUID="{6C3A96A6-E681-45DB-80B6-ECEA82840FAA}" Generator="2022.1.14.8476"/>
+	<CacheRoot>../../../../SpaceShooter_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{25857504-0B4C-4425-9724-E4D6A6E28517}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="Windows" GUID="{6C7D1ECA-E75C-496C-A3DF-8047951E778E}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{3C4B4F7A-83FA-4C44-A41B-25141C54E7E4}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{48D9FA2B-0C11-07D5-B7D8-2C4B4E934496}</FileHash>
+</ProjectInfo>

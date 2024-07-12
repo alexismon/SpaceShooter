@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2570041344	Play_MenuMusic			\Default Work Unit\Play_MenuMusic	
+	2753202630	Stop_MenuMusic			\Default Work Unit\Stop_MenuMusic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	812569975	SciFi Music for YouTube videos [ NO COPYRIGHT]	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\SciFi Music for YouTube videos [ NO COPYRIGHT]_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MenuMusic\SciFi Music for YouTube videos [ NO COPYRIGHT]\SciFi Music for YouTube videos [ NO COPYRIGHT]		63712680
+

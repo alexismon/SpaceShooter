@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 941e85b0bc04d34418b0513999a159c9, type: 3}
+  m_Name: D54A6ED2-15ED-469F-9B74-77A396466325
+  m_EditorClassIdentifier: 
+  objectName: Death
+  id: 779278001
+  guid: D54A6ED2-15ED-469F-9B74-77A396466325
+  WwiseStateGroupReference: {fileID: 11400000, guid: ab455823e109d9b4e927d1c239cad635,
+    type: 2}

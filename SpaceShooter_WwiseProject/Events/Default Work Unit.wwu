@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E8976E4-BCC0-43BA-9548-16D1DE0D3E35}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8E8976E4-BCC0-43BA-9548-16D1DE0D3E35}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{5EEFB336-FD93-4675-A365-677460927B4A}">
+					<ChildrenList>
+						<Action Name="" ID="{E958D2D4-0333-4D65-894B-CFA7862C7299}" ShortID="718604151">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{76FF9569-9F80-456B-BEC4-BB0ECE3C8A48}" WorkUnitID="{BB5288FA-BC13-41C1-BBCF-294ED613FAEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{F0B2811C-DF2A-407E-8AD2-60E4B4CE8C8A}">
+					<ChildrenList>
+						<Action Name="" ID="{80E2A902-014A-4207-92F4-6DD67DB76A1D}" ShortID="259476286">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{76FF9569-9F80-456B-BEC4-BB0ECE3C8A48}" WorkUnitID="{BB5288FA-BC13-41C1-BBCF-294ED613FAEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asteroid_Explosion" ID="{FEE4D13E-E9BE-4DBE-82B2-416B386745CD}">
+					<ChildrenList>
+						<Action Name="" ID="{5ECA45D1-7B38-44E4-B19B-E06F3DED15BB}" ShortID="1012117500">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Big Bomb-SoundBible_com-1219802495" ID="{87EAD55F-0348-4D24-A583-3B8155FBB6D5}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Nuke" ID="{EC5C55DF-D9E7-4F23-ABF1-14E81C45A74F}">
+					<ChildrenList>
+						<Action Name="" ID="{34597ACF-2B63-4F5F-A587-8A24432B1025}" ShortID="303169958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bottle Rocket-SoundBible_com-332895117" ID="{41E7374B-05FF-44AD-BA64-339B071D4C4C}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GameStart" ID="{8EA05A2E-4DD0-4D9C-90FB-7C3581139DB7}">
+					<ChildrenList>
+						<Action Name="" ID="{10405794-12ED-4442-9B65-45CBAB4D094B}" ShortID="780537238">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cartoon_Swish_Missile_Launch_SND15320" ID="{F1DD77DD-DBCF-418C-B859-936172BB33A9}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SpecialNuke" ID="{BA79B6AB-2CF5-40BC-AF20-AA289EB80A25}">
+					<ChildrenList>
+						<Action Name="" ID="{906AB816-B723-4059-AA94-0A40A6EF83AB}" ShortID="857780596">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chamber Decompressing-SoundBible_com-1075404493" ID="{327EACFF-43A8-479A-AE52-D4ED52EA9C60}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EnemyShip_Explosion" ID="{DE822C84-A9D6-4FF0-B2A3-FCAA53A4194D}">
+					<ChildrenList>
+						<Action Name="" ID="{651A38B8-338B-49AF-810F-AC2E56447964}" ShortID="891258439">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosions_Designed_Designed_Small_Impact_SND60030" ID="{28D0DBC0-F82A-43C3-8669-C5D15ED49E63}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SpaceShip_Explosion" ID="{AA55DFA5-0F9C-4D46-BC1D-A570D8FFACF0}">
+					<ChildrenList>
+						<Action Name="" ID="{65940CF7-D328-4A80-A00A-AD0E73324C96}" ShortID="797866806">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosions_Designed_Sci_Fi_Explosion_04_SND7138" ID="{0313ECEE-FEEC-455A-8E2B-B76E53E38785}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SpaceStation_Explosion" ID="{15E4A84C-E7B0-44EB-8DB0-ECE3D9E13045}">
+					<ChildrenList>
+						<Action Name="" ID="{8B416B82-4F28-421F-9445-925D54953B16}" ShortID="934024988">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosions_Real_Deep_Low_SND5808" ID="{183EAA08-DE1C-4D3F-BD59-DFD1E33B0565}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Laser" ID="{864C1811-D84C-4D80-91CA-6563EA7C551C}">
+					<ChildrenList>
+						<Action Name="" ID="{10419801-0DE5-4B27-8D53-6F24067FB8C2}" ShortID="507435559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lasers_Gun_Blaster_Laser_Boom_Small_SND7294" ID="{EA207531-1873-4DDB-B705-605C95589762}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SpaceStation_Damage" ID="{F37E23A5-DFED-42C1-85A9-98E489A910D0}">
+					<ChildrenList>
+						<Action Name="" ID="{E880C46E-46F4-4E22-BF91-BC27507116B3}" ShortID="22584649">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022" ID="{7E888A4E-8567-4F27-A619-05308B40D48E}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EnemyShip_Damage" ID="{427DFF8F-C6B1-4581-AD6A-53D23747FED8}">
+					<ChildrenList>
+						<Action Name="" ID="{1E0F79B9-5FB4-4480-8F72-E7D0B001A829}" ShortID="5130839">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal_Impact_Thin_Hit_Vibrate_SND30095" ID="{CC1BA78F-015A-4B0A-BC34-4E8168277683}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AmmoBox" ID="{C9C8DD9A-33D6-4DD1-9CDD-B030984AAFC6}">
+					<ChildrenList>
+						<Action Name="" ID="{00AF7885-BC34-47D8-8DB3-98B63159E443}" ShortID="563139329">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Power Up" ID="{90EC85CF-F84E-4FC4-B632-989C1D5C42A2}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Highlight" ID="{EF81200B-4F5E-4ED3-A69A-EFD1FBEFBD4A}">
+					<ChildrenList>
+						<Action Name="" ID="{B137B003-22CF-40B8-A092-A7DDD521B8F6}" ShortID="54766442">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_ex_machina_Action_Closing_Effect_Sound_1" ID="{068C1041-CF7A-4DCA-9DB7-C4FB83E9019F}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Enter" ID="{9FA4DE15-4AAA-4D57-82A3-8ED2A5CEB037}">
+					<ChildrenList>
+						<Action Name="" ID="{BF6BA870-4CC9-4E01-B84A-ED73487B5AD0}" ShortID="205852841">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_ex_machina_Action_Enter+(Spacy)" ID="{4E9C9C4E-6328-471A-869A-7818F8371613}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SpaceShip_Damage" ID="{7C3698F1-52E7-4148-A678-747328267546}">
+					<ChildrenList>
+						<Action Name="" ID="{20685F8B-C52C-46FF-A7E7-70C4252C8439}" ShortID="932189245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Torpedo Impact-SoundBible_com-765913562" ID="{6EC2D5D7-D9F0-47A2-9525-C599C19E933C}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asteroid_Damage" ID="{543190B4-16FC-443A-A02F-61B41E494E6F}">
+					<ChildrenList>
+						<Action Name="" ID="{DE10C34D-3F3F-467B-A796-9217AEDAC587}" ShortID="108613626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109" ID="{F7A0C39D-3949-4EA3-B552-7760106DC663}" WorkUnitID="{35308A71-24AD-40BE-945C-D817FFF3F44A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

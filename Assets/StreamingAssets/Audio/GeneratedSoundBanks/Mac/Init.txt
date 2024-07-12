@@ -1,0 +1,32 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_State			\Default Work Unit\Game_State	
+	3677180323	Health			\Default Work Unit\Health	
+
+State	ID	Name	State Group			Notes
+	702482391	Game	Game_State			
+	748895195	None	Game_State			
+	779278001	Death	Game_State			
+	2607556080	Menu	Game_State			
+	3092587493	Pause	Game_State			
+	384135286	VeryDamaged	Health			
+	748895195	None	Health			
+	779278001	Death	Health			
+	2510516222	Full	Health			
+	3258988170	Damaged	Health			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	229378249	Damaged	Health	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	660409614	VeryDamaged	Health	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	806218789	Death	Game_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+	959246309	Death	Game_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

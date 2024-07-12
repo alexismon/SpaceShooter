@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../../SpaceShooter_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../SpaceShooter_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../SpaceShooter_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{55C15689-7B89-C268-32BD-06F615320BCB}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="766723505" Name="Game_State">
+					<States>
+						<State Id="702482391" Name="Game"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="779278001" Name="Death"/>
+						<State Id="2607556080" Name="Menu"/>
+						<State Id="3092587493" Name="Pause"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3677180323" Name="Health">
+					<States>
+						<State Id="384135286" Name="VeryDamaged"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="779278001" Name="Death"/>
+						<State Id="2510516222" Name="Full"/>
+						<State Id="3258988170" Name="Damaged"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E09BE451-951E-560F-33B7-BDD591EDD9B0}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="40068689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cartoon_Swish_Missile_Launch_SND15320.wav</ShortName>
+					<CachePath>SFX/Cartoon_Swish_Missile_Launch_SND15320_10C4C929.wem</CachePath>
+				</File>
+				<File Id="230249476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sound_ex_machina_Action_Closing_Effect_Sound_1.wav</ShortName>
+					<CachePath>SFX/sound_ex_machina_Action_Closing_Effect_Sound_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="395739991" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bottle Rocket-SoundBible.com-332895117.wav</ShortName>
+					<CachePath>SFX/Bottle Rocket-SoundBible.com-332895117_10C4C929.wem</CachePath>
+				</File>
+				<File Id="432964787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosions_Designed_Sci_Fi_Explosion_04_SND7138.wav</ShortName>
+					<CachePath>SFX/Explosions_Designed_Sci_Fi_Explosion_04_SND7138_10C4C929.wem</CachePath>
+				</File>
+				<File Id="449851699" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Back ground Sound.wav</ShortName>
+					<CachePath>SFX/Back ground Sound_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="536933991" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lasers_Gun_Blaster_Laser_Boom_Small_SND7294.wav</ShortName>
+					<CachePath>SFX/Lasers_Gun_Blaster_Laser_Boom_Small_SND7294_10C4C929.wem</CachePath>
+				</File>
+				<File Id="744133093" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Power Up.wav</ShortName>
+					<CachePath>SFX/Power Up_10C4C929.wem</CachePath>
+				</File>
+				<File Id="772505209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal_Impact_Thin_Hit_Vibrate_SND30095.wav</ShortName>
+					<CachePath>SFX/Metal_Impact_Thin_Hit_Vibrate_SND30095_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802990809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosions_Designed_Designed_Small_Impact_SND60030.wav</ShortName>
+					<CachePath>SFX/Explosions_Designed_Designed_Small_Impact_SND60030_10C4C929.wem</CachePath>
+				</File>
+				<File Id="812569975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SciFi Music for YouTube videos [ NO COPYRIGHT].wav</ShortName>
+					<CachePath>SFX/SciFi Music for YouTube videos [ NO COPYRIGHT]_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="853174966" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Big Bomb-SoundBible.com-1219802495.wav</ShortName>
+					<CachePath>SFX/Big Bomb-SoundBible.com-1219802495_10C4C929.wem</CachePath>
+				</File>
+				<File Id="930388483" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosions_Real_Deep_Low_SND5808.wav</ShortName>
+					<CachePath>SFX/Explosions_Real_Deep_Low_SND5808_10C4C929.wem</CachePath>
+				</File>
+				<File Id="939148713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109.wav</ShortName>
+					<CachePath>SFX/Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109_10C4C929.wem</CachePath>
+				</File>
+				<File Id="989786446" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chamber Decompressing-SoundBible.com-1075404493.wav</ShortName>
+					<CachePath>SFX/Chamber Decompressing-SoundBible.com-1075404493_10C4C929.wem</CachePath>
+				</File>
+				<File Id="992509922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022.wav</ShortName>
+					<CachePath>SFX/Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1020672185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sound_ex_machina_Action_Enter+(Spacy).wav</ShortName>
+					<CachePath>SFX/Sound_ex_machina_Action_Enter+(Spacy)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1055068365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Torpedo Impact-SoundBible.com-765913562.wav</ShortName>
+					<CachePath>SFX/Torpedo Impact-SoundBible.com-765913562_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="433237507" Name="Play_AmmoBox" DurationType="OneShot" DurationMin="1.0698959" DurationMax="1.0698959">
+					<MediaRefs>
+						<MediaRef Id="744133093"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1717614887" Name="Play_Asteroid_Damage" DurationType="OneShot" DurationMin="0.66763544" DurationMax="0.66763544">
+					<MediaRefs>
+						<MediaRef Id="939148713"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4237284121" Name="Play_Asteroid_Explosion" DurationType="OneShot" DurationMin="3.6445625" DurationMax="3.6445625">
+					<MediaRefs>
+						<MediaRef Id="853174966"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3733942808" Name="Play_EnemyShip_Damage" DurationType="OneShot" DurationMin="1.1823334" DurationMax="1.1823334">
+					<MediaRefs>
+						<MediaRef Id="772505209"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1405656152" Name="Play_EnemyShip_Explosion" DurationType="OneShot" DurationMin="1.2054375" DurationMax="1.2054375">
+					<MediaRefs>
+						<MediaRef Id="802990809"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1497459184" Name="Play_GameStart" DurationType="OneShot" DurationMin="1.2025625" DurationMax="1.2025625">
+					<MediaRefs>
+						<MediaRef Id="40068689"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2270376495" Name="Play_Laser" DurationType="OneShot" DurationMin="0.6975521" DurationMax="0.6975521">
+					<MediaRefs>
+						<MediaRef Id="536933991"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="766723505" Id="779278001"/>
+							<MediaRefs>
+								<MediaRef Id="449851699"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="766723505" Id="2607556080"/>
+							<MediaRefs>
+								<MediaRef Id="812569975"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="766723505" Id="3092587493"/>
+							<MediaRefs>
+								<MediaRef Id="812569975"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="766723505" Id="702482391"/>
+							<MediaRefs>
+								<MediaRef Id="449851699"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="158275041" Name="Play_Nuke" DurationType="OneShot" DurationMin="2.1685624" DurationMax="2.1685624">
+					<MediaRefs>
+						<MediaRef Id="395739991"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2147041706" Name="Play_SpaceShip_Damage" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="1055068365"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2187574386" Name="Play_SpaceShip_Explosion" DurationType="OneShot" DurationMin="2.4105833" DurationMax="2.4105833">
+					<MediaRefs>
+						<MediaRef Id="432964787"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="856647580" Name="Play_SpaceStation_Damage" DurationType="OneShot" DurationMin="2.3702083" DurationMax="2.3702083">
+					<MediaRefs>
+						<MediaRef Id="992509922"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2396634876" Name="Play_SpaceStation_Explosion" DurationType="OneShot" DurationMin="2.7235208" DurationMax="2.7235208">
+					<MediaRefs>
+						<MediaRef Id="930388483"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1645846432" Name="Play_SpecialNuke" DurationType="OneShot" DurationMin="2.761" DurationMax="2.761">
+					<MediaRefs>
+						<MediaRef Id="989786446"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2982660583" Name="Play_UI_Enter" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="1020672185"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2671607925" Name="Play_UI_Highlight" DurationType="OneShot" DurationMin="0.1731875" DurationMax="0.1731875">
+					<MediaRefs>
+						<MediaRef Id="230249476"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2837384057" Name="Stop_Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="766723505" Name="Game_State">
+					<States>
+						<State Id="702482391" Name="Game"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="779278001" Name="Death"/>
+						<State Id="2607556080" Name="Menu"/>
+						<State Id="3092587493" Name="Pause"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AD080455-A05C-0493-4DDE-2C5932006467}</FileHash>
+</SoundBanksInfo>

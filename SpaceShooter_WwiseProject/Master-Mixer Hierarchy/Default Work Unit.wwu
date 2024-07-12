@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{B1966B19-F961-43B8-9184-A92DC4FE5B81}" WorkUnitID="{FE053367-FA70-4383-8D2A-FE0F1EF12528}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Game_State" ID="{3C7DF4CF-666A-4626-B0B5-41B7F87FC7B1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Menu" ID="{C6921972-D41E-415C-B1E4-B555B9513432}"/>
+										<CustomState Name="" ID="{BA925FBB-C3AD-45A0-B417-3C6C1AFB2E46}" ShortID="205760118"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Game" ID="{49130E20-E739-4305-8245-7BC258D38A58}"/>
+										<CustomState Name="" ID="{800FBA5A-10E3-4227-9D0C-1299CEB4C2DC}" ShortID="7614933"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Death" ID="{D54A6ED2-15ED-469F-9B74-77A396466325}"/>
+										<CustomState Name="" ID="{FC56703D-D2D3-4C27-8FB3-B2F55FF4CD7E}" ShortID="959246309">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="43"/>
+												<Property Name="Lowpass" Type="int16" Value="64"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause" ID="{8D8D53B9-E31E-4F61-B839-C5A35576913E}"/>
+										<CustomState Name="" ID="{37016E40-69CB-40F9-8942-302A131BF92F}" ShortID="33590222"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="UI" ID="{6E75FCC6-4024-4DAB-A7DE-841A81571751}"/>
+						<Bus Name="Music" ID="{4F94A42F-6EC3-4454-A6B8-5C4F6B44CC65}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Game_State" ID="{3C7DF4CF-666A-4626-B0B5-41B7F87FC7B1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Menu" ID="{C6921972-D41E-415C-B1E4-B555B9513432}"/>
+										<CustomState Name="" ID="{1070F89B-6606-4D54-985A-CFF9F88B6FC3}" ShortID="214981663"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Game" ID="{49130E20-E739-4305-8245-7BC258D38A58}"/>
+										<CustomState Name="" ID="{57F883D9-BDA5-4CF9-A6CE-5FC41C4898AD}" ShortID="111674225"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Death" ID="{D54A6ED2-15ED-469F-9B74-77A396466325}"/>
+										<CustomState Name="" ID="{0BA5BDDC-0D9B-45A8-B988-A94150E36886}" ShortID="806218789">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="64"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause" ID="{8D8D53B9-E31E-4F61-B839-C5A35576913E}"/>
+										<CustomState Name="" ID="{7FCC5906-D74E-436A-A530-DEBC7CE8AF53}" ShortID="486735032"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Health" ID="{1306D9F1-7965-4DF6-B0EB-474F21A2AFFA}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Death" ID="{DDEE591F-9C7C-46ED-9ACC-0A5269CCA904}"/>
+								<CustomState Name="" ID="{42FFA0D1-C70E-403E-979D-F48F874D72C0}" ShortID="706857198"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Damaged" ID="{088193D0-B134-4912-8DED-86F116B0741C}"/>
+								<CustomState Name="" ID="{5FD67E25-6387-4DF1-80C7-BE8E7C334C37}" ShortID="229378249">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="23"/>
+										<Property Name="Pitch" Type="int32" Value="-450"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="VeryDamaged" ID="{CCBC70A4-7E42-495E-A23A-244E7EF3019C}"/>
+								<CustomState Name="" ID="{5173D5C1-402C-42B5-A510-D97F2A9F7909}" ShortID="660409614">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="38"/>
+										<Property Name="Pitch" Type="int32" Value="-1010"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Full" ID="{17C86909-98D4-4FD6-BC2A-8098B6F37876}"/>
+								<CustomState Name="" ID="{3E725E4D-97D6-431D-8AF1-BB157F058306}" ShortID="632868891"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

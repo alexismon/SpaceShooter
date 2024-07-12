@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d62964d0dd5ab444a9861d3875828ae, type: 3}
+  m_Name: 7C3698F1-52E7-4148-A678-747328267546
+  m_EditorClassIdentifier: 
+  objectName: Play_SpaceShip_Damage
+  id: 2147041706
+  guid: 7C3698F1-52E7-4148-A678-747328267546

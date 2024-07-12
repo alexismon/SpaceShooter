@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 941e85b0bc04d34418b0513999a159c9, type: 3}
+  m_Name: 088193D0-B134-4912-8DED-86F116B0741C
+  m_EditorClassIdentifier: 
+  objectName: Damaged
+  id: 3258988170
+  guid: 088193D0-B134-4912-8DED-86F116B0741C
+  WwiseStateGroupReference: {fileID: 11400000, guid: 451e0cde0a41173419f38d7d4c7517fa,
+    type: 2}

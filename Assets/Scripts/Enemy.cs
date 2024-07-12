@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     public float maxSize = 1f;
     public float minVelocity = -3;
     public float maxVelocity = -7;
-    public RandomAudioSource damageAudioSource;
+    public AkEvent damagedAkEvent;
 
     private int health = 0;
     protected Rigidbody2D rigid;
@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
 
             if (bullet != null)
             {
-                damageAudioSource.Play();
+                damagedAkEvent.HandleEvent(gameObject);
 
                 health -= bullet.damage;
 

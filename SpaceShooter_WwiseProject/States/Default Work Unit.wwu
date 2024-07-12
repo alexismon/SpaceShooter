@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A3CB1584-E128-4881-AFF4-2E1FAD85EFE2}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{A3CB1584-E128-4881-AFF4-2E1FAD85EFE2}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Game_State" ID="{3C7DF4CF-666A-4626-B0B5-41B7F87FC7B1}">
+					<ChildrenList>
+						<State Name="None" ID="{1B76EAC6-453B-4413-97E5-CD6A4D234003}"/>
+						<State Name="Menu" ID="{C6921972-D41E-415C-B1E4-B555B9513432}"/>
+						<State Name="Pause" ID="{8D8D53B9-E31E-4F61-B839-C5A35576913E}"/>
+						<State Name="Death" ID="{D54A6ED2-15ED-469F-9B74-77A396466325}"/>
+						<State Name="Game" ID="{49130E20-E739-4305-8245-7BC258D38A58}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Health" ID="{1306D9F1-7965-4DF6-B0EB-474F21A2AFFA}">
+					<ChildrenList>
+						<State Name="None" ID="{3A42847C-D36F-419D-A81A-43D631659654}"/>
+						<State Name="Full" ID="{17C86909-98D4-4FD6-BC2A-8098B6F37876}"/>
+						<State Name="Damaged" ID="{088193D0-B134-4912-8DED-86F116B0741C}"/>
+						<State Name="VeryDamaged" ID="{CCBC70A4-7E42-495E-A23A-244E7EF3019C}"/>
+						<State Name="Death" ID="{DDEE591F-9C7C-46ED-9ACC-0A5269CCA904}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

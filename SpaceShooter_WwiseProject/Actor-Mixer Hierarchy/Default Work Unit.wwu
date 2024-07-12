@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{35308A71-24AD-40BE-945C-D817FFF3F44A}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{35308A71-24AD-40BE-945C-D817FFF3F44A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Cartoon_Swish_Missile_Launch_SND15320" ID="{F1DD77DD-DBCF-418C-B859-936172BB33A9}" ShortID="239220548">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cartoon_Swish_Missile_Launch_SND15320" ID="{CFC21559-3EB2-473C-9219-E146B0B71B55}">
+							<Language>SFX</Language>
+							<AudioFile>Cartoon_Swish_Missile_Launch_SND15320.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="40068689"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cartoon_Swish_Missile_Launch_SND15320" ID="{CFC21559-3EB2-473C-9219-E146B0B71B55}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Explosions_Designed_Designed_Small_Impact_SND60030" ID="{28D0DBC0-F82A-43C3-8669-C5D15ED49E63}" ShortID="218226591">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosions_Designed_Designed_Small_Impact_SND60030" ID="{210F795A-CD9E-4B57-B261-E80B66350806}">
+							<Language>SFX</Language>
+							<AudioFile>Explosions_Designed_Designed_Small_Impact_SND60030.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="802990809"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosions_Designed_Designed_Small_Impact_SND60030" ID="{210F795A-CD9E-4B57-B261-E80B66350806}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Explosions_Designed_Sci_Fi_Explosion_04_SND7138" ID="{0313ECEE-FEEC-455A-8E2B-B76E53E38785}" ShortID="934081528">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosions_Designed_Sci_Fi_Explosion_04_SND7138" ID="{A100A937-E3E0-476C-B484-5C63E3FE7CA0}">
+							<Language>SFX</Language>
+							<AudioFile>Explosions_Designed_Sci_Fi_Explosion_04_SND7138.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="432964787"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosions_Designed_Sci_Fi_Explosion_04_SND7138" ID="{A100A937-E3E0-476C-B484-5C63E3FE7CA0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Explosions_Real_Deep_Low_SND5808" ID="{183EAA08-DE1C-4D3F-BD59-DFD1E33B0565}" ShortID="609034646">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosions_Real_Deep_Low_SND5808" ID="{90C8E37D-BD1F-4C6F-BBEF-2952EFCCE1F6}">
+							<Language>SFX</Language>
+							<AudioFile>Explosions_Real_Deep_Low_SND5808.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="930388483"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosions_Real_Deep_Low_SND5808" ID="{90C8E37D-BD1F-4C6F-BBEF-2952EFCCE1F6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Lasers_Gun_Blaster_Laser_Boom_Small_SND7294" ID="{EA207531-1873-4DDB-B705-605C95589762}" ShortID="205243736">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lasers_Gun_Blaster_Laser_Boom_Small_SND7294" ID="{442D9366-2AAD-4C1A-B4B4-EDFC74D640E2}">
+							<Language>SFX</Language>
+							<AudioFile>Lasers_Gun_Blaster_Laser_Boom_Small_SND7294.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="536933991"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Lasers_Gun_Blaster_Laser_Boom_Small_SND7294" ID="{442D9366-2AAD-4C1A-B4B4-EDFC74D640E2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022" ID="{7E888A4E-8567-4F27-A619-05308B40D48E}" ShortID="189028866">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022" ID="{AC16B451-857C-4519-A2F7-B046C6A89F82}">
+							<Language>SFX</Language>
+							<AudioFile>Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="992509922"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022" ID="{AC16B451-857C-4519-A2F7-B046C6A89F82}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Metal_Impact_Thin_Hit_Vibrate_SND30095" ID="{CC1BA78F-015A-4B0A-BC34-4E8168277683}" ShortID="761427196">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Metal_Impact_Thin_Hit_Vibrate_SND30095" ID="{71D2FDBC-FB3A-44C5-B108-00F06A0DD76C}">
+							<Language>SFX</Language>
+							<AudioFile>Metal_Impact_Thin_Hit_Vibrate_SND30095.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="772505209"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Metal_Impact_Thin_Hit_Vibrate_SND30095" ID="{71D2FDBC-FB3A-44C5-B108-00F06A0DD76C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sound_ex_machina_Action_Closing_Effect_Sound_1" ID="{068C1041-CF7A-4DCA-9DB7-C4FB83E9019F}" ShortID="283108607">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{6E75FCC6-4024-4DAB-A7DE-841A81571751}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sound_ex_machina_Action_Closing_Effect_Sound_1" ID="{D443BA2F-9728-4CED-A6CE-C5167E8D1F32}">
+							<Language>SFX</Language>
+							<AudioFile>sound_ex_machina_Action_Closing_Effect_Sound_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="230249476"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sound_ex_machina_Action_Closing_Effect_Sound_1" ID="{D443BA2F-9728-4CED-A6CE-C5167E8D1F32}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109" ID="{F7A0C39D-3949-4EA3-B552-7760106DC663}" ShortID="505633568">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109" ID="{E2762B55-D3E7-4414-9666-D7BB65069889}">
+							<Language>SFX</Language>
+							<AudioFile>Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="939148713"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109" ID="{E2762B55-D3E7-4414-9666-D7BB65069889}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Big Bomb-SoundBible_com-1219802495" ID="{87EAD55F-0348-4D24-A583-3B8155FBB6D5}" ShortID="339552338">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Big Bomb-SoundBible_com-1219802495" ID="{5E3249FD-48FB-4FF3-B761-F9EC696B6F20}">
+							<Language>SFX</Language>
+							<AudioFile>Big Bomb-SoundBible.com-1219802495.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="853174966"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Big Bomb-SoundBible_com-1219802495" ID="{5E3249FD-48FB-4FF3-B761-F9EC696B6F20}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Bottle Rocket-SoundBible_com-332895117" ID="{41E7374B-05FF-44AD-BA64-339B071D4C4C}" ShortID="1009827955">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bottle Rocket-SoundBible_com-332895117" ID="{17E5CBB6-CB51-4F42-8263-3B8BCAF09E23}">
+							<Language>SFX</Language>
+							<AudioFile>Bottle Rocket-SoundBible.com-332895117.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="395739991"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bottle Rocket-SoundBible_com-332895117" ID="{17E5CBB6-CB51-4F42-8263-3B8BCAF09E23}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Chamber Decompressing-SoundBible_com-1075404493" ID="{327EACFF-43A8-479A-AE52-D4ED52EA9C60}" ShortID="343332302">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Chamber Decompressing-SoundBible_com-1075404493" ID="{5543A44C-1F7C-46F3-B413-A31DF0F3AE16}">
+							<Language>SFX</Language>
+							<AudioFile>Chamber Decompressing-SoundBible.com-1075404493.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="989786446"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Chamber Decompressing-SoundBible_com-1075404493" ID="{5543A44C-1F7C-46F3-B413-A31DF0F3AE16}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Power Up" ID="{90EC85CF-F84E-4FC4-B632-989C1D5C42A2}" ShortID="693168043">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Power Up" ID="{8753A902-EE52-4288-A75C-81636592F7A2}">
+							<Language>SFX</Language>
+							<AudioFile>Power Up.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="744133093"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Power Up" ID="{8753A902-EE52-4288-A75C-81636592F7A2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Sound_ex_machina_Action_Enter+(Spacy)" ID="{4E9C9C4E-6328-471A-869A-7818F8371613}" ShortID="10969637">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{6E75FCC6-4024-4DAB-A7DE-841A81571751}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Sound_ex_machina_Action_Enter+(Spacy)" ID="{6B2E63AB-A8B2-49C7-AC2D-AAABBE14679D}">
+							<Language>SFX</Language>
+							<AudioFile>Sound_ex_machina_Action_Enter+(Spacy).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1020672185"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Sound_ex_machina_Action_Enter+(Spacy)" ID="{6B2E63AB-A8B2-49C7-AC2D-AAABBE14679D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Torpedo Impact-SoundBible_com-765913562" ID="{6EC2D5D7-D9F0-47A2-9525-C599C19E933C}" ShortID="910598103">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD4F6B0D-952F-49E9-BBC6-F4EEA9AF448A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{B207D33B-EB40-4770-BFC4-6EB88A3688B9}" WorkUnitID="{B9CBC990-FC3A-4BFE-AC04-1B8F67FC2B16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Torpedo Impact-SoundBible_com-765913562" ID="{0DA95BDA-6B6E-4E0F-9E4B-E01837F9FECA}">
+							<Language>SFX</Language>
+							<AudioFile>Torpedo Impact-SoundBible.com-765913562.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1055068365"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Torpedo Impact-SoundBible_com-765913562" ID="{0DA95BDA-6B6E-4E0F-9E4B-E01837F9FECA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -7,6 +7,8 @@ public class GameScreen : MonoBehaviour
     public PauseScreen pauseScreen;
     public DeathScreen deathScreen;
 
+    public AK.Wwise.State pauseState;
+
     void Update()
     {
         if (Input.GetButtonDown("Pause"))

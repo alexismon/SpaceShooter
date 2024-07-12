@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d62964d0dd5ab444a9861d3875828ae, type: 3}
+  m_Name: DE822C84-A9D6-4FF0-B2A3-FCAA53A4194D
+  m_EditorClassIdentifier: 
+  objectName: Play_EnemyShip_Explosion
+  id: 1405656152
+  guid: DE822C84-A9D6-4FF0-B2A3-FCAA53A4194D

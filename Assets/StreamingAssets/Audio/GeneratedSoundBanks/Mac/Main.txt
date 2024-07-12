@@ -1,0 +1,48 @@
+Event	ID	Name			Wwise Object Path	Notes
+	158275041	Play_Nuke			\Default Work Unit\Play_Nuke	
+	433237507	Play_AmmoBox			\Default Work Unit\Play_AmmoBox	
+	856647580	Play_SpaceStation_Damage			\Default Work Unit\Play_SpaceStation_Damage	
+	1405656152	Play_EnemyShip_Explosion			\Default Work Unit\Play_EnemyShip_Explosion	
+	1497459184	Play_GameStart			\Default Work Unit\Play_GameStart	
+	1645846432	Play_SpecialNuke			\Default Work Unit\Play_SpecialNuke	
+	1717614887	Play_Asteroid_Damage			\Default Work Unit\Play_Asteroid_Damage	
+	2147041706	Play_SpaceShip_Damage			\Default Work Unit\Play_SpaceShip_Damage	
+	2187574386	Play_SpaceShip_Explosion			\Default Work Unit\Play_SpaceShip_Explosion	
+	2270376495	Play_Laser			\Default Work Unit\Play_Laser	
+	2396634876	Play_SpaceStation_Explosion			\Default Work Unit\Play_SpaceStation_Explosion	
+	2671607925	Play_UI_Highlight			\Default Work Unit\Play_UI_Highlight	
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	2982660583	Play_UI_Enter			\Default Work Unit\Play_UI_Enter	
+	3733942808	Play_EnemyShip_Damage			\Default Work Unit\Play_EnemyShip_Damage	
+	4237284121	Play_Asteroid_Explosion			\Default Work Unit\Play_Asteroid_Explosion	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_State			\Default Work Unit\Game_State	
+
+State	ID	Name	State Group			Notes
+	702482391	Game	Game_State			
+	748895195	None	Game_State			
+	779278001	Death	Game_State			
+	2607556080	Menu	Game_State			
+	3092587493	Pause	Game_State			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40068689	Cartoon_Swish_Missile_Launch_SND15320	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Cartoon_Swish_Missile_Launch_SND15320_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cartoon_Swish_Missile_Launch_SND15320		230988
+	230249476	sound_ex_machina_Action_Closing_Effect_Sound_1	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\sound_ex_machina_Action_Closing_Effect_Sound_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sound_ex_machina_Action_Closing_Effect_Sound_1		33348
+	395739991	Bottle Rocket-SoundBible_com-332895117	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Bottle Rocket-SoundBible.com-332895117_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bottle Rocket-SoundBible_com-332895117		416460
+	432964787	Explosions_Designed_Sci_Fi_Explosion_04_SND7138	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Explosions_Designed_Sci_Fi_Explosion_04_SND7138_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosions_Designed_Sci_Fi_Explosion_04_SND7138		462928
+	449851699	Back ground Sound	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Back ground Sound_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\GameMusic\Back ground Sound\Back ground Sound		30288968
+	536933991	Lasers_Gun_Blaster_Laser_Boom_Small_SND7294	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Lasers_Gun_Blaster_Laser_Boom_Small_SND7294_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lasers_Gun_Blaster_Laser_Boom_Small_SND7294		134024
+	744133093	Power Up	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Power Up_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Power Up		205516
+	772505209	Metal_Impact_Thin_Hit_Vibrate_SND30095	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Metal_Impact_Thin_Hit_Vibrate_SND30095_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal_Impact_Thin_Hit_Vibrate_SND30095		113600
+	802990809	Explosions_Designed_Designed_Small_Impact_SND60030	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Explosions_Designed_Designed_Small_Impact_SND60030_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosions_Designed_Designed_Small_Impact_SND60030		231540
+	812569975	SciFi Music for YouTube videos [ NO COPYRIGHT]	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\SciFi Music for YouTube videos [ NO COPYRIGHT]_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MenuMusic\SciFi Music for YouTube videos [ NO COPYRIGHT]\SciFi Music for YouTube videos [ NO COPYRIGHT]		63712680
+	853174966	Big Bomb-SoundBible_com-1219802495	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Big Bomb-SoundBible.com-1219802495_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Big Bomb-SoundBible_com-1219802495		699852
+	930388483	Explosions_Real_Deep_Low_SND5808	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Explosions_Real_Deep_Low_SND5808_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosions_Real_Deep_Low_SND5808		523012
+	939148713	Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wood_Crash_Debris_Hard_Impacts_Metal_Details_Wood_Break_SND53109		128280
+	989786446	Chamber Decompressing-SoundBible_com-1075404493	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Chamber Decompressing-SoundBible.com-1075404493_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chamber Decompressing-SoundBible_com-1075404493		530208
+	992509922	Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mechanical_Lever_Designed_Big_Metal_Switch_Spotlight_Reverberant_SND110022		455176
+	1020672185	Sound_ex_machina_Action_Enter+(Spacy)	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Sound_ex_machina_Action_Enter+(Spacy)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_ex_machina_Action_Enter+(Spacy)		480096
+	1055068365	Torpedo Impact-SoundBible_com-765913562	C:\Users\alexi\Desktop\Unity\SpaceShooter\SpaceShooter_WwiseProject\.cache\Mac\SFX\Torpedo Impact-SoundBible.com-765913562_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Torpedo Impact-SoundBible_com-765913562		384096
+
