@@ -48,7 +48,7 @@ public class HealthBar : MonoBehaviour
                 lowPassFilter.cutoffFrequency = 1000f; // Strong filter when 1 heart
                 break;
             case 0:
-                lowPassFilter.cutoffFrequency = 0f; // Dead, completely muted
+                lowPassFilter.cutoffFrequency = 22000f; // Dead, completely muted
                 break;
         }
     }
